@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".NumericFragment">
+
+    <TextClock
+        android:id="@+id/Num_clock_id"
+        android:layout_width="411dp"
+        android:layout_height="603dp"
+        android:format12Hour="hh:mm:ss a"
+        android:textColor="#9C27B0"
+        android:textSize="50sp" />
+
+</FrameLayout>

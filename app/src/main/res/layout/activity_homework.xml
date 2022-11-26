@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.slidingpanelayout.widget.SlidingPaneLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/sliding_pane_layout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment1"
+        android:name="com.gl4.tp3.homework.secondFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openDetails">
+
+    </androidx.fragment.app.FragmentContainerView>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment2"
+        android:name="com.gl4.tp3.homework.firstFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </androidx.fragment.app.FragmentContainerView>
+
+
+
+</androidx.slidingpanelayout.widget.SlidingPaneLayout>
